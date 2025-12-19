@@ -74,6 +74,9 @@ import {
     MODEL_FOR_AUDIO_TEXT_TO_TEXT_MAPPING_NAMES,
 } from './models/registry.js';
 
+// Re-export all individual model classes from registry
+export * from './models/registry.js';
+
 /**
  * Base class of all AutoModels. Contains the `from_pretrained` function
  * which is used to instantiate pretrained models.
